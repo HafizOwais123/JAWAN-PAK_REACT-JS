@@ -1,0 +1,36 @@
+/* Slider.module.css */
+
+.carouselContainer {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.carouselImage {
+  object-fit: cover;
+  height: 90vh; /* Full screen height minus navbar, adjust as needed */
+}
+
+.carouselCaption {
+  background-color: rgba(0, 0, 0, 0.5); /* dark translucent background */
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: left; /* Text content left aligned */
+  position: absolute; /* Allow manual positioning */
+  left: 1rem; /* Distance from left */
+  bottom: 1rem; /* Usually used in carousels to position at bottom */
+}
+
+.leftCaption {
+  text-align: left;
+  left: 5%;
+  right: auto;
+  bottom: 20%; /* Adjust as needed */
+  transform: none;
+}
+
+
+
+
+
