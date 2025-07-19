@@ -1,0 +1,30 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:15px;
+  padding: 20px;
+}
+
+.cardItem {
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin:10px;
+  padding: 10px;
+  width: calc(22% - 20px); /* Slightly smaller width for more space */
+  box-sizing: border-box;
+}
+
+.cardItem img {
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
+}
+
+/* TextStyles.module.css */
+.strongText {
+  font-size: 24px;
+  color: rgb(6, 6, 15);
+  font-weight: bold; /* strong की तरह */
+}
+
