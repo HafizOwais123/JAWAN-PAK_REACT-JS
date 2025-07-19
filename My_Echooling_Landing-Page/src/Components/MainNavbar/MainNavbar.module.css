@@ -1,0 +1,158 @@
+/* .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 20px;
+  height: 60px;
+  color: rgb(96, 96, 164);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  margin-top: 37px;
+}
+
+
+.logo img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  justify-items: center;
+}
+
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks li a {
+  text-decoration: none;
+  color: rgb(96, 96, 164)s;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navLinks li a:hover {
+  color: #dd0d0d;
+}
+
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.searchInput {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  width: 150px;
+  border: 1px solid black;
+}
+
+
+.searchButton {
+  background-color: #b09c9c;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.searchButton:hover {
+  background-color: #ff4c4c;
+} */
+
+
+.navbar {
+ 
+  display: flex;
+  align-items: center; /* Vertically center items */
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 20px;
+  height: 60px;
+  color: rgb(96, 96, 164);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 37px;
+  box-sizing: border-box;
+}
+
+/* Logo on left side */
+.logo img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  display: block; /* Prevent extra spacing under image */
+  margin-bottom: 30px;
+}
+
+/* Center links */
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.navLinks li a {
+  text-decoration: none;
+  color: rgb(96, 96, 164); /* Fix: removed extra 's' */
+  font-weight: 600;
+  transition: color 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.navLinks li a:hover {
+  color: #dd0d0d;
+}
+
+/* Search container on right */
+.searchContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+/* Search input styling */
+.searchInput {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 14px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+/* Search button with icon */
+.searchButton {
+  background-color: #b09c9c;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.searchButton:hover {
+  background-color: #ff4c4c;
+}
+

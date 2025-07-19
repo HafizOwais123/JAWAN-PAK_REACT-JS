@@ -1,0 +1,29 @@
+/* src/components/FloatingBadge/FloatingBadge.module.css */
+
+.badgeContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.floatingBadge {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Floating up-down animation */
+@keyframes float {
+  0% {
+    transform: translate(-50%, -50%) translateY(0px);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-10px);
+  }
+  100% {
+    transform: translate(-50%, -50%) translateY(0px);
+  }
+}
