@@ -1,0 +1,30 @@
+.navbar {
+  border-top: 1px solid #ccc;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #002f34;
+}
+
+.navList li {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.navList li:hover {
+  color: #0284c7;
+}
+
+.dropdown {
+  font-weight: bold;
+}
